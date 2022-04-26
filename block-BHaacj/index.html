@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html forms A2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/615eec2c8f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header flex">
+        <div class="flex brand">
+            <a href="#">
+                <img src="assets/logo.png" alt="logo">
+            </a>
+            <h1>journey</h1>
+        </div>
+        <nav>
+            <a href="#" class="active">home</a>
+            <a href="#">top destinations</a>
+            <a href="#">recommended places</a>
+            <a href="#">contacts us</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <h2>let's begin</h2>
+            <figure>
+                <img src="assets/dots-3.png" alt="dots">
+            </figure>
+            <p>We assist you to choose the best</p>
+            <i class="fa-solid fa-angle-down"></i>
+            <form action="">
+                <fieldset>
+                    <div class="flex">
+                        <div class="flex-48">
+                            <label for="destination">choose your destination</label>
+                            <input type="text" class="form-control" name="date" id="destination" placeholder="type your destinations...">
+                            <div class="flex-48 flex date-form"> 
+                                <div>
+                                    <label for="date">check in date</label>
+                                    <input type="text" class="form-control" id="date" placeholder="check in">
+                                </div>
+                                <div>
+                                    <label for="check-out-date">check out date</label>
+                                    <input type="text" class="form-control" id="check-out-date" placeholder="check out">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-48">
+                            <div class="flex">
+                                <div class="flex33">
+                                    <label for="rooms">how many rooms</label>
+                                    <select class="form-control" name="rooms" id="rooms">
+                                        <option value="1 room">1 room</option>
+                                        <option value="2 room">2 room</option>
+                                        <option value="3 room">3 room</option>
+                                    </select>
+                                </div>
+                                <div class="flex-28">
+                                    <label for="adults">adult</label>
+                                    <select class="form-control" name="adult" id="adults" value="0">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                                <div class="flex-28">
+                                    <label for="children">children</label>
+                                    <select class="form-control" name="children" value="0" id="children">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="submit" value="check availability" placeholder="check availability" class="btn submit">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <div class="intro">
+            <h3>your <strong>journey</strong> is our priority</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+            <a href="#" class="btn">continue explore</a>
+        </div>
+       <section class="places">
+           <article class="mfplace flex">
+            <figure class="flex-50">
+                <img src="assets/tm-img-01.jpg" alt="pic1">
+            </figure>
+            <div class="content flex-50">
+                <h3>europe's most famous place</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+                <a href="#" class="btn place-btn">continue reading</a>
+            </div>
+           </article>
+           <article class="mpplace flex">
+            <div class="content2 content flex-50">
+                <h3>europe's most famous place</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+                <a href="#" class="btn place-btn">continue reading</a>
+            </div>
+            <figure class="flex-50">
+                <img src="assets/tm-img-02.jpg" alt="pic1">
+            </figure>
+           </article>
+           <article class="mvplace flex">
+            <figure class="flex-50">
+                <img src="assets/tm-img-03.jpg" alt="pic1">
+            </figure>
+            <div class="content flex-50">
+                <h3>europe's most famous place</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+                <a href="#" class="btn place-btn">continue reading</a>
+            </div>
+           </article>
+       </section>
+       <div class="flex">
+           <div class="map">
+               <img src="assets/north-america.png" alt="map1">
+               <h5>north america</h5>
+           </div>
+           <div class="map">
+            <img src="assets/south-america.png" alt="map1">
+            <h5>south america</h5>
+            </div>
+            <div class="map">
+                <img src="assets/europe.png" alt="map1">
+                <h5>europe</h5>
+            </div>
+            <div class="map pink">
+                <img src="assets/asia.png" alt="map1">
+                <h5>asia</h5>
+            </div>
+            <div class="map">
+                <img src="assets/africa.png" alt="map1">
+                <h5>africa</h5>
+            </div>
+            <div class="map">
+                <img src="assets/australia.png" alt="map1">
+                <h5>australia</h5>
+            </div>
+            <div class="map">
+                <img src="assets/antartica.png" alt="map1">
+                <h5>antartica</h5>
+            </div>
+       </div>
+       <section class="container2">
+           <article class="flex hotels">
+               <img src="assets/tm-img-04.jpg" alt="pic4">
+               <div class="cont">
+                   <h4>asia resort hotel</h4>
+                   <address>singapore</address>
+                   <p>Lorem Ipsum is simply Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+                </div>
+                <div class="link flex">
+                    <img src="assets/button-curve.png" alt="">
+                    <a href="#" class="btn">
+                    <strong>$440</strong><br><br><br>continue reading</a>
+                </div>
+           </article>
+           <article class="flex hotels">
+                <img src="assets/tm-img-05.jpg" alt="pic4">
+                <div class="cont">
+                    <h4>nullam eget est a nisl</h4>
+                    <address>yangon, myanmar</address>
+                    <p>Lorem Ipsum is simply Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+                </div>
+                <div class="link flex">
+                     <img src="assets/button-curve.png" alt="">
+                    <a href="#" class="btn">
+                     <strong>$450</strong><br><br><br>continue reading</a>
+                </div>
+            </article>
+            <article class="flex hotels">
+                <img src="assets/tm-img-06.jpg" alt="pic4">
+                <div class="cont">
+                    <h4>proin interdum ullamcorper</h4>
+                    <address>bangkok, thailand</address>
+                    <p>Lorem Ipsum is simply Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+                </div>
+                <div class="link flex">
+                     <img src="assets/button-curve.png" alt="">
+                    <a href="#" class="btn">
+                     <strong>$460</strong><br><br><br>continue reading</a>
+                </div>
+            </article>
+            <article class="flex hotels">
+                <img src="assets/tm-img-07.jpg" alt="pic4">
+                <div class="cont">
+                    <h4>lorem ipsum dolor sit</h4>
+                    <address>vientlame, laos</address>
+                    <p>Lorem Ipsum is simply Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+                </div>
+                <div class="link flex">
+                     <img src="assets/button-curve.png" alt="">
+                    <a href="#" class="btn">
+                     <strong>$470</strong><br><br><br>continue reading</a>
+                </div>
+            </article>
+            <a href="#" class="btn hotel-btn">show more places</a>
+       </section>
+       <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509921.662701165!2d-123.79904115130805!3d37.184248858611106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sin!4v1650976801424!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </figure>
+       <form action="" class="form2">
+           <fieldset>
+               <div class="flex">
+                    <input class="form-control flex-48" type="text" placeholder="name">
+                    <input class="form-control flex-48" type="email" placeholder="email">
+               </div>
+               <input type="text" class="form-control" placeholder="subject">
+               <textarea name="" class="form-control" placeholder="message" id="" rows="10"></textarea>
+               <input type="submit" value="send message now" class="btn submit">
+            </fieldset>
+       </form>
+    </main>
+    <footer>
+        <small>copyright &copy; 2020 your company. designated bt template mo</small>
+    </footer>
+</body>
